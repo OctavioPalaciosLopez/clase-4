@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+    <script type="application/javascript">
+        const cuenta = parseFloat(prompt("Ingresar la cuenta de la cena"))
+        const numAmigos = parseFloat(prompt("¿Cuántas personas cenaron?"))
+        const propina = cuenta*0.1
+        
+        const cuentaIndividual = (cuenta/numAmigos)
+        const cuentaTotal = cuenta + propina
+        
+        alert("Total a pagar por persona: " + cuentaIndividual)
+        alert("Cuenta total: " + cuentaTotal)
+    </script>
+</html>
