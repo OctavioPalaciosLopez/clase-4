@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+    <script type="application/javascript">
+        const acciones = parseFloat(prompt("¿Cúanto es la accion del startup?"))
+        const dineroSocio1 = acciones/2
+        const dineroSocio2 = acciones/2
+        const porcentajeIva = 0.16
+        
+        const dineroRestanteSocio1 =  dineroSocio1 + (dineroSocio1*porcentajeIva)
+        const dineroRestanteSocio2 =  dineroSocio2 + (dineroSocio2*porcentajeIva)
+        
+        alert("Dinero a pagar por cada socio: " + dineroRestanteSocio1)
+    </script>
+
+</html>
